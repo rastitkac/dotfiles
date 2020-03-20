@@ -41,6 +41,22 @@
         "editor.tabSize": 2
     },
 
+    "[php]": {
+        "editor.tabSize": 2
+    },
+
+    "[twig]": {
+        "editor.tabSize": 2
+    },
+
+    "[scss]": {
+        "editor.tabSize": 2
+    },
+
+    "[css]": {
+        "editor.tabSize": 2
+    },
+
     "git.autofetch": true,
     "terminal.integrated.rendererType": "dom",
     "typescript.updateImportsOnFileMove.enabled": "always",
@@ -49,11 +65,7 @@
         "suppressShowKeyBindingsNotice": true
     },
     "gitlens.keymap": "alternate",
-    "clang.cxxflags": ["-std=c++11"],
     "workbench.settings.editor": "json",
     "workbench.settings.useSplitJSON": true,
-    "files.associations": {
-        "*.cash": "solidity"
-    },
     "terminal.integrated.shell.osx": "/usr/local/bin/fish",
 }
