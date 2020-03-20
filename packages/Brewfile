@@ -8,6 +8,8 @@ tap 'Schniz/tap'
 tap 'mongodb/brew'
 tap 'web3j/web3j'
 
+cask '1password'
+cask '1password-cli'
 cask 'adobe-acrobat-reader'
 cask 'alfred'
 cask 'brave-browser'
@@ -103,10 +105,5 @@ brew 'wp-cli'
 brew 'youtube-dl'
 brew 'zeromq'
 
-mas 'Amphetamine', id: 937984704
-mas 'Ulysses', id: 1225570693
-mas 'iMovie', id: 408981434
-mas 'Keynote', id: 409183694
 mas 'Xcode', id: 497799835
 mas 'com.whoisonmywifi.macagent', id: 909760813
-mas 'Shotty', id: 1250306151
