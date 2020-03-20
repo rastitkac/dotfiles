@@ -70,4 +70,9 @@
     "terminal.integrated.shell.osx": "/usr/local/bin/fish",
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
+    "gitlens.views.repositories.location": "scm",
+    "gitlens.views.fileHistory.location": "scm",
+    "gitlens.views.lineHistory.location": "scm",
+    "gitlens.views.compare.location": "scm",
+    "gitlens.views.search.location": "scm",
 }
