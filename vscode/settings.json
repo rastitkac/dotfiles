@@ -68,4 +68,5 @@
     "workbench.settings.editor": "json",
     "workbench.settings.useSplitJSON": true,
     "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+    "git.enableSmartCommit": true,
 }
