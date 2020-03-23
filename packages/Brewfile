@@ -106,6 +106,8 @@ brew 'travis'
 brew 'web3j'
 brew 'wget'
 brew 'wp-cli'
+brew 'yarn'
+brew 'yarn-completion'
 brew 'youtube-dl'
 brew 'zeromq'
 
