@@ -15,7 +15,7 @@
 
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -0.5,
 
     "python.linting.pylintEnabled": true,
     "python.linting.pep8Enabled": false,
