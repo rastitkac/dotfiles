@@ -25,3 +25,5 @@ set -x -g PATH ~/.composer/vendor/bin $PATH
 # fnm
 set -x -g PATH /home/rosco/.fnm $PATH
 fnm env --multi | source
+
+thefuck --alias | source
