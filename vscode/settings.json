@@ -1,7 +1,7 @@
 // Place your settings in this file to overwrite the default settings
 {
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Atom One Dark",
+    "workbench.colorTheme": "One Monokai",
 
     "editor.rulers": [79],
     "editor.roundedSelection": false,
@@ -15,7 +15,7 @@
 
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
-    "window.zoomLevel": -0.5,
+    "window.zoomLevel": -1,
 
     "python.linting.pylintEnabled": true,
     "python.linting.pep8Enabled": false,
@@ -70,9 +70,20 @@
     "terminal.integrated.shell.osx": "/usr/local/bin/fish",
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
-    "gitlens.views.repositories.location": "scm",
-    "gitlens.views.fileHistory.location": "scm",
-    "gitlens.views.lineHistory.location": "scm",
-    "gitlens.views.compare.location": "scm",
-    "gitlens.views.search.location": "scm",
+    "terminal.integrated.shellArgs.osx": [],
+    "gitlens.views.repositories.location": "gitlens",
+    "gitlens.views.fileHistory.location": "gitlens",
+    "gitlens.views.lineHistory.location": "gitlens",
+    "gitlens.views.compare.location": "gitlens",
+    "gitlens.views.search.location": "gitlens",
+    "editor.largeFileOptimizations": false,
+    "gistpad.playgrounds.layout": "splitLeft",
+    "diffEditor.renderSideBySide": false,
+    "editor.renderControlCharacters": false,
+    "intelephense.diagnostics.undefinedTypes": false,
+    "intelephense.diagnostics.undefinedMethods": false,
+    "intelephense.diagnostics.undefinedConstants": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "gitlens.gitCommands.closeOnFocusOut": true,
+    "vscode-json-editor.theme": "dark",
 }
