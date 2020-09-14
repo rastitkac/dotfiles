@@ -10,7 +10,7 @@ tap 'web3j/web3j'
 
 cask '1password'
 cask '1password-cli'
-cask 'adobe-acrobat-reader'
+cask 'adobe-creative-cloud'
 cask 'alfred'
 cask 'brave-browser'
 cask 'google-chrome'
