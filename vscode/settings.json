@@ -1,9 +1,10 @@
 // Place your settings in this file to overwrite the default settings
 {
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "One Monokai",
-
-    "editor.rulers": [79],
+    "workbench.colorTheme": "GitHub Dark",
+    "editor.rulers": [
+        79
+    ],
     "editor.roundedSelection": false,
     "editor.minimap.enabled": true,
     "editor.minimap.renderCharacters": false,
@@ -12,15 +13,12 @@
     "editor.renderIndentGuides": true,
     "editor.suggestSelection": "first",
     // "editor.fontWeight": "600",
-
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "window.zoomLevel": -1,
-
     "python.linting.pylintEnabled": true,
     "python.linting.pep8Enabled": false,
     "python.pythonPath": "/usr/local/bin/python3",
-
     "eslint.validate": [
         "javascript",
         "javascriptreact",
@@ -28,35 +26,27 @@
         "typescriptreact",
         "vue"
     ],
-
     "[typescript]": {
         "editor.tabSize": 2
     },
-
     "[javascript]": {
         "editor.tabSize": 2
     },
-
     "[html]": {
         "editor.tabSize": 2
     },
-
     "[php]": {
         "editor.tabSize": 2
     },
-
     "[twig]": {
         "editor.tabSize": 2
     },
-
     "[scss]": {
         "editor.tabSize": 2
     },
-
     "[css]": {
         "editor.tabSize": 2
     },
-
     "git.autofetch": true,
     "terminal.integrated.rendererType": "dom",
     "typescript.updateImportsOnFileMove.enabled": "always",
@@ -86,4 +76,16 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "gitlens.gitCommands.closeOnFocusOut": true,
     "vscode-json-editor.theme": "dark",
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1611583243973,
+    "editor.formatOnSave": true,
+    "todo-tree.tree.showScanModeButton": false,
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.autoFixBySemicolon": false,
+    "git.allowNoVerifyCommit": true,
+    "editor.fontFamily": "'Fira Code', Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "liquid.format": false,
+    "zenMode.fullScreen": false,
+    "window.restoreFullscreen": true,
 }
