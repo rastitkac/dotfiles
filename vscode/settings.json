@@ -26,27 +26,6 @@
         "typescriptreact",
         "vue"
     ],
-    "[typescript]": {
-        "editor.tabSize": 2
-    },
-    "[javascript]": {
-        "editor.tabSize": 2
-    },
-    "[html]": {
-        "editor.tabSize": 2
-    },
-    "[php]": {
-        "editor.tabSize": 2
-    },
-    "[twig]": {
-        "editor.tabSize": 2
-    },
-    "[scss]": {
-        "editor.tabSize": 2
-    },
-    "[css]": {
-        "editor.tabSize": 2
-    },
     "git.autofetch": true,
     "terminal.integrated.rendererType": "dom",
     "typescript.updateImportsOnFileMove.enabled": "always",
@@ -68,7 +47,6 @@
     "gitlens.views.search.location": "gitlens",
     "editor.largeFileOptimizations": false,
     "gistpad.playgrounds.layout": "splitLeft",
-    "diffEditor.renderSideBySide": false,
     "editor.renderControlCharacters": false,
     "intelephense.diagnostics.undefinedTypes": false,
     "intelephense.diagnostics.undefinedMethods": false,
@@ -76,16 +54,38 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "gitlens.gitCommands.closeOnFocusOut": true,
     "vscode-json-editor.theme": "dark",
-    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1611583243973,
     "editor.formatOnSave": true,
     "todo-tree.tree.showScanModeButton": false,
-    "php-cs-fixer.onsave": true,
-    "php-cs-fixer.autoFixBySemicolon": false,
     "git.allowNoVerifyCommit": true,
     "editor.fontFamily": "'Fira Code', Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "liquid.format": false,
     "zenMode.fullScreen": false,
     "window.restoreFullscreen": true,
+    "workbench.editor.wrapTabs": true,
+    "diffEditor.renderSideBySide": false,
+    "intelephense.diagnostics.run": "onSave",
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]"
+    ],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "stylelint.packageManager": "yarn",
+    "css.lint.argumentsInColorFunction": "ignore",
+    "css.lint.emptyRules": "ignore",
+    "css.lint.hexColorLength": "ignore",
+    "css.lint.fontFaceProperties": "ignore",
+    "css.lint.propertyIgnoredDueToDisplay": "ignore",
+    "css.lint.unknownAtRules": "ignore",
+    "css.lint.unknownProperties": "ignore",
+    "css.lint.vendorPrefix": "ignore",
+    "css.validate": false,
+    "emmet.includeLanguages": {
+        "twig": "html"
+    },
 }
