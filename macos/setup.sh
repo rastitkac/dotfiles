@@ -18,9 +18,9 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Set computer name
-sudo scutil --set ComputerName rtmbp
-sudo scutil --set LocalHostName rtmbp
-sudo scutil --set HostName rtmbp
+sudo scutil --set ComputerName WK Rasti M1
+sudo scutil --set LocalHostName WK Rasti M1
+sudo scutil --set HostName WK Rasti M1
 
 ###############################################################################
 # General UI/UX                                                               #
