@@ -1,3 +1,10 @@
+if test (uname -s) = "Darwin"
+  set -gx PATH /usr/local/opt/coreutils/libexec/gnubin $PATH
+  set -gx PATH /usr/local/opt/gnu-sed/libexec/gnubin $PATH
+end
+
+set -U fish_key_bindings fish_vi_key_bindings
+
 set -x -g TERM "xterm-256color"
 
 set -x -g LC_ALL en_GB.UTF-8
