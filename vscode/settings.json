@@ -88,4 +88,6 @@
     "emmet.includeLanguages": {
         "twig": "html"
     },
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
 }
