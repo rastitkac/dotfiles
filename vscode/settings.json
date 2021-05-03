@@ -63,7 +63,6 @@
     "zenMode.fullScreen": false,
     "window.restoreFullscreen": true,
     "workbench.editor.wrapTabs": true,
-    "diffEditor.renderSideBySide": false,
     "intelephense.diagnostics.run": "onSave",
     "todo-tree.general.tags": [
         "BUG",
