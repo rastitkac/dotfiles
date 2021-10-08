@@ -1,7 +1,7 @@
 // Place your settings in this file to overwrite the default settings
 {
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Nord",
+    "workbench.colorTheme": "GitHub Dark Dimmed",
     "editor.rulers": [
         79
     ],
@@ -15,7 +15,6 @@
     // "editor.fontWeight": "600",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
-    "window.zoomLevel": -1,
     "python.linting.pylintEnabled": true,
     "python.linting.pep8Enabled": false,
     "python.pythonPath": "/usr/local/bin/python3",
@@ -88,5 +87,20 @@
         "twig": "html"
     },
     "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false
+    "telemetry.enableTelemetry": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "twig-language-2.correct": true,
+    "twig-language-2.tabSize": 4,
+    "twig-language-2.indentLevel": 4,
+    "githubIssues.queries": [
+        {
+            "label": "My Issues",
+            "query": "default"
+        },
+        {
+            "label": "Created Issues",
+            "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+        }
+    ],
+    "window.zoomLevel": -1
 }
