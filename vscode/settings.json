@@ -88,9 +88,6 @@
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "gitlens.hovers.currentLine.over": "line",
-    "twig-language-2.correct": true,
-    "twig-language-2.tabSize": 4,
-    "twig-language-2.indentLevel": 4,
     "githubIssues.queries": [{
             "label": "My Issues",
             "query": "default"
