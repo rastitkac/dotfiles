@@ -1,7 +1,7 @@
 // Place your settings in this file to overwrite the default settings
 {
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "workbench.colorTheme": "One Monokai",
     "editor.rulers": [
         79
     ],
@@ -12,7 +12,7 @@
     "editor.renderWhitespace": "boundary",
     "editor.renderIndentGuides": true,
     "editor.suggestSelection": "first",
-    // "editor.fontWeight": "600",
+    "editor.fontWeight": "500",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "python.linting.pylintEnabled": true,
@@ -53,7 +53,6 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "gitlens.gitCommands.closeOnFocusOut": true,
     "vscode-json-editor.theme": "dark",
-    "editor.formatOnSave": true,
     "todo-tree.tree.showScanModeButton": false,
     "git.allowNoVerifyCommit": true,
     "editor.fontFamily": "'Fira Code', Monaco, 'Courier New', monospace",
@@ -92,8 +91,7 @@
     "twig-language-2.correct": true,
     "twig-language-2.tabSize": 4,
     "twig-language-2.indentLevel": 4,
-    "githubIssues.queries": [
-        {
+    "githubIssues.queries": [{
             "label": "My Issues",
             "query": "default"
         },
@@ -102,5 +100,16 @@
             "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
         }
     ],
-    "window.zoomLevel": -1
+    "window.zoomLevel": -1.1,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "HookyQR.beautify",
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[twig]": {
+        "editor.defaultFormatter": "mblode.twig-language-2"
+    }
 }
