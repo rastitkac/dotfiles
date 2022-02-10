@@ -1,7 +1,7 @@
 // Place your settings in this file to overwrite the default settings
 {
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "One Monokai",
+    "workbench.colorTheme": "GitHub Light",
     "editor.rulers": [
         79
     ],
@@ -57,6 +57,7 @@
     "git.allowNoVerifyCommit": true,
     "editor.fontFamily": "'Fira Code', Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
+    "editor.bracketPairColorization.enabled": true,
     "liquid.format": false,
     "zenMode.fullScreen": false,
     "window.restoreFullscreen": true,
@@ -106,7 +107,6 @@
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "[twig]": {
-        "editor.defaultFormatter": "mblode.twig-language-2"
-    }
+    "explorer.confirmDragAndDrop": false,
+    "twig-language-2.unformatted": true
 }
