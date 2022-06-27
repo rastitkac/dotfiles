@@ -28,7 +28,7 @@ set -x -g PATH ~/bin ~/.local/bin $PATH /usr/local/sbin
 set -x -g PATH ~/.composer/vendor/bin $PATH
 
 # fnm
-set -x -g PATH /home/rosco/.fnm $PATH
+set -x -g PATH /home/rastitkac/.fnm $PATH
 fnm env | source
 
 # bobthefish
