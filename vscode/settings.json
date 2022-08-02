@@ -107,9 +107,16 @@
     },
     "explorer.confirmDragAndDrop": false,
     "twig-language-2.unformatted": true,
-    "window.zoomLevel": -1,
     "editor.inlineSuggest.enabled": true,
     "xmlTools.enforcePrettySelfClosingTagOnFormat": true,
     "xmlTools.splitAttributesOnFormat": true,
-    "editor.guides.indentation": true
+    "editor.guides.indentation": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": true
+    },
+    "window.zoomLevel": -1,
+    "git.ignoreRebaseWarning": true
 }
