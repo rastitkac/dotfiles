@@ -46,6 +46,9 @@
 " Sets how many lines of history VIM has to remember
 set history=500
 
+" Enable line numbers
+set number
+
 " Enable filetype plugins
 filetype plugin on
 filetype indent on
@@ -146,7 +149,7 @@ set foldcolumn=1
 syntax enable 
 
 try
-    colorscheme desert
+    colorscheme nord
 catch
 endtry
 
