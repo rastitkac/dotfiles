@@ -34,7 +34,7 @@
     "gitlens.keymap": "alternate",
     "workbench.settings.editor": "json",
     "workbench.settings.useSplitJSON": true,
-    "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+    "terminal.integrated.shell.osx": "/opt/homebrew/bin/fish",
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
     "terminal.integrated.shellArgs.osx": [],

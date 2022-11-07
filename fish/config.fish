@@ -3,6 +3,8 @@ if test (uname -s) = "Darwin"
   set -gx PATH /usr/local/opt/gnu-sed/libexec/gnubin $PATH
 end
 
+set -x -g PATH (/opt/homebrew/bin/brew shellenv) $PATH
+
 set -U fish_key_bindings fish_vi_key_bindings
 
 set -x -g TERM "xterm-256color"

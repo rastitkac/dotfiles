@@ -10,7 +10,7 @@ For more information about dotfiles, I wrote these articles on my blog:
     1. Alternatively, generate new ssh keys, and add these to your GitHub account
 2. Install Homebrew and git
   ```bash
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   brew install git
   ```
 3. Clone this repository
