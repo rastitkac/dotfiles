@@ -1,7 +1,7 @@
 // Place your settings in this file to overwrite the default settings
 {
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Nord",
+    "workbench.colorTheme": "Nord Deep",
     "editor.rulers": [
         79
     ],
@@ -119,5 +119,8 @@
     },
     "git.ignoreRebaseWarning": true,
     "window.zoomLevel": -1,
-    "security.workspace.trust.untrustedFiles": "open"
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.linkedEditing": true,
+    "terminal.integrated.scrollback": 50000,
+    "githubPullRequests.pullBranch": "never"
 }
