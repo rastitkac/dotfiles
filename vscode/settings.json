@@ -105,6 +105,12 @@
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "[twig]": {
+        "editor.defaultFormatter": "mblode.twig-language-2"
+    },
+    "[mjml]": {
+        "editor.defaultFormatter": "mjmlio.vscode-mjml"
+    },
     "explorer.confirmDragAndDrop": false,
     "twig-language-2.unformatted": true,
     "editor.inlineSuggest.enabled": true,
@@ -122,5 +128,18 @@
     "security.workspace.trust.untrustedFiles": "open",
     "editor.linkedEditing": true,
     "terminal.integrated.scrollback": 50000,
-    "githubPullRequests.pullBranch": "never"
+    "githubPullRequests.pullBranch": "never",
+    "mjml.beautify": {
+        "indent_size": 2,
+        "wrap_attributes_indent_size": 2
+    },
+    "mjml.mailer": "nodemailer",
+    "mjml.mailFromName": "Tester Testing",
+    "mjml.mailRecipients": "rasti@webkinder.ch",
+    "mjml.mailSender": "rasti@webkinder.ch",
+    "mjml.minifyHtmlOutput": false,
+    "mjml.screenshotType": "png",
+    "files.associations": {
+        "*.mjml.twig": "mjml"
+    }
 }
