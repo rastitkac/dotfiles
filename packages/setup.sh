@@ -13,7 +13,7 @@ info "Installing Brewfile packages..."
 brew bundle
 success "Finished installing Brewfile packages."
 
-fnm use 12
+fnm use 14
 success "Switched to Node v12"
 
 find * -name "*.list" | while read fn; do
