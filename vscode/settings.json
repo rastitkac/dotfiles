@@ -1,145 +1,159 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Nord Deep",
-    "editor.rulers": [
-        79
-    ],
-    "editor.roundedSelection": false,
-    "editor.minimap.enabled": true,
-    "editor.minimap.renderCharacters": false,
-    "editor.minimap.maxColumn": 100,
-    "editor.renderWhitespace": "boundary",
-    "editor.suggestSelection": "first",
-    "editor.fontWeight": "500",
-    "files.trimTrailingWhitespace": true,
-    "files.insertFinalNewline": true,
-    "python.linting.pylintEnabled": true,
-    "python.linting.pep8Enabled": false,
-    "python.pythonPath": "/usr/local/bin/python3",
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        "typescript",
-        "typescriptreact",
-        "vue"
-    ],
-    "git.autofetch": true,
-    "terminal.integrated.rendererType": "dom",
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Nord Deep",
+  "editor.rulers": [79],
+  "editor.roundedSelection": false,
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.maxColumn": 100,
+  "editor.renderWhitespace": "boundary",
+  "editor.suggestSelection": "first",
+  "editor.fontWeight": "500",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "eslint.validate": ["javascript"],
+  "eslint.packageManager": "yarn",
+  "git.autofetch": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.keymap": "alternate",
+  "workbench.settings.editor": "json",
+  "workbench.settings.useSplitJSON": true,
+  "terminal.integrated.shell.osx": "/opt/homebrew/bin/fish",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "terminal.integrated.shellArgs.osx": [],
+  "editor.largeFileOptimizations": false,
+  "editor.renderControlCharacters": false,
+  "php.suggest.basic": false,
+  "editor.quickSuggestions": {
+    "comments": true
+  },
+  "php-cs-fixer.config": "~/.vscode/.php-cs-fixer.php",
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  "[php]": {
+    "editor.defaultFormatter": "junstyle.php-cs-fixer",
+    "editor.formatOnSave": true
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "javascript.validate.enable": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[twig]": {
+    "editor.formatOnSave": false
+  },
+  "intelephense.diagnostics.undefinedTypes": false,
+  "intelephense.diagnostics.undefinedMethods": false,
+  "intelephense.diagnostics.undefinedConstants": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "gitlens.gitCommands.closeOnFocusOut": true,
+  "vscode-json-editor.theme": "dark",
+  "git.allowNoVerifyCommit": true,
+  "editor.fontFamily": "'Fira Code', Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.bracketPairColorization.enabled": true,
+  "zenMode.fullScreen": false,
+  "window.restoreFullscreen": true,
+  "workbench.editor.wrapTabs": true,
+  "intelephense.diagnostics.run": "onSave",
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "stylelint.packageManager": "yarn",
+  "css.lint.argumentsInColorFunction": "ignore",
+  "css.lint.emptyRules": "ignore",
+  "css.lint.hexColorLength": "ignore",
+  "css.lint.fontFaceProperties": "ignore",
+  "css.lint.propertyIgnoredDueToDisplay": "ignore",
+  "css.lint.unknownAtRules": "ignore",
+  "css.lint.unknownProperties": "ignore",
+  "css.lint.vendorPrefix": "ignore",
+  "css.validate": false,
+  "emmet.includeLanguages": {
+    "twig": "html"
+  },
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "githubIssues.queries": [
+    {
+      "label": "My Issues",
+      "query": "default"
     },
-    "gitlens.keymap": "alternate",
-    "workbench.settings.editor": "json",
-    "workbench.settings.useSplitJSON": true,
-    "terminal.integrated.shell.osx": "/opt/homebrew/bin/fish",
-    "git.enableSmartCommit": true,
-    "git.confirmSync": false,
-    "terminal.integrated.shellArgs.osx": [],
-    "gitlens.views.repositories.location": "gitlens",
-    "gitlens.views.fileHistory.location": "gitlens",
-    "gitlens.views.lineHistory.location": "gitlens",
-    "gitlens.views.compare.location": "gitlens",
-    "gitlens.views.search.location": "gitlens",
-    "editor.largeFileOptimizations": false,
-    "gistpad.playgrounds.layout": "splitLeft",
-    "editor.renderControlCharacters": false,
-    "intelephense.diagnostics.undefinedTypes": false,
-    "intelephense.diagnostics.undefinedMethods": false,
-    "intelephense.diagnostics.undefinedConstants": false,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "gitlens.gitCommands.closeOnFocusOut": true,
-    "vscode-json-editor.theme": "dark",
-    "todo-tree.tree.showScanModeButton": false,
-    "git.allowNoVerifyCommit": true,
-    "editor.fontFamily": "'Fira Code', Monaco, 'Courier New', monospace",
-    "editor.fontLigatures": true,
-    "editor.bracketPairColorization.enabled": true,
-    "liquid.format": false,
-    "zenMode.fullScreen": false,
-    "window.restoreFullscreen": true,
-    "workbench.editor.wrapTabs": true,
-    "intelephense.diagnostics.run": "onSave",
-    "todo-tree.general.tags": [
-        "BUG",
-        "HACK",
-        "FIXME",
-        "TODO",
-        "XXX",
-        "[ ]",
-        "[x]"
-    ],
-    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
-    "stylelint.packageManager": "yarn",
-    "css.lint.argumentsInColorFunction": "ignore",
-    "css.lint.emptyRules": "ignore",
-    "css.lint.hexColorLength": "ignore",
-    "css.lint.fontFaceProperties": "ignore",
-    "css.lint.propertyIgnoredDueToDisplay": "ignore",
-    "css.lint.unknownAtRules": "ignore",
-    "css.lint.unknownProperties": "ignore",
-    "css.lint.vendorPrefix": "ignore",
-    "css.validate": false,
-    "emmet.includeLanguages": {
-        "twig": "html"
-    },
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
-    "gitlens.hovers.currentLine.over": "line",
-    "githubIssues.queries": [{
-            "label": "My Issues",
-            "query": "default"
-        },
-        {
-            "label": "Created Issues",
-            "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
-        }
-    ],
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "HookyQR.beautify",
-    "[php]": {
-        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[twig]": {
-        "editor.defaultFormatter": "mblode.twig-language-2"
-    },
-    "[mjml]": {
-        "editor.defaultFormatter": "mjmlio.vscode-mjml"
-    },
-    "explorer.confirmDragAndDrop": false,
-    "twig-language-2.unformatted": true,
-    "editor.inlineSuggest.enabled": true,
-    "xmlTools.enforcePrettySelfClosingTagOnFormat": true,
-    "xmlTools.splitAttributesOnFormat": true,
-    "editor.guides.indentation": true,
-    "github.copilot.enable": {
-        "*": true,
-        "yaml": false,
-        "plaintext": false,
-        "markdown": true
-    },
-    "git.ignoreRebaseWarning": true,
-    "window.zoomLevel": -1,
-    "security.workspace.trust.untrustedFiles": "open",
-    "editor.linkedEditing": true,
-    "terminal.integrated.scrollback": 50000,
-    "githubPullRequests.pullBranch": "never",
-    "mjml.beautify": {
-        "indent_size": 2,
-        "wrap_attributes_indent_size": 2
-    },
-    "mjml.mailer": "nodemailer",
-    "mjml.mailFromName": "Tester Testing",
-    "mjml.mailRecipients": "rasti@webkinder.ch",
-    "mjml.mailSender": "rasti@webkinder.ch",
-    "mjml.minifyHtmlOutput": false,
-    "mjml.screenshotType": "png",
-    "files.associations": {
-        "*.mjml.twig": "mjml"
+    {
+      "label": "Created Issues",
+      "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
     }
+  ],
+  "editor.formatOnSave": true,
+  "[mjml]": {
+    "editor.defaultFormatter": "mjmlio.vscode-mjml"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "twig-language-2.unformatted": true,
+  "twig-language-2.formatting": false,
+  "twig-language-2.space": false,
+  "editor.inlineSuggest.enabled": true,
+  "xmlTools.enforcePrettySelfClosingTagOnFormat": true,
+  "xmlTools.splitAttributesOnFormat": true,
+  "editor.guides.indentation": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "yaml": true
+  },
+  "git.ignoreRebaseWarning": true,
+  "window.zoomLevel": -1,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.linkedEditing": true,
+  "terminal.integrated.scrollback": 50000,
+  "githubPullRequests.pullBranch": "never",
+  "mjml.beautify": {
+    "indent_size": 2,
+    "wrap_attributes_indent_size": 2
+  },
+  "mjml.mailer": "nodemailer",
+  "mjml.mailFromName": "Tester Testing",
+  "mjml.mailRecipients": "rasti@webkinder.ch",
+  "mjml.mailSender": "rasti@webkinder.ch",
+  "mjml.minifyHtmlOutput": false,
+  "mjml.screenshotType": "png",
+  "files.associations": {
+    "*.mjml.twig": "mjml",
+    "*.html": "twig"
+  },
+  "php-cs-fixer.lastDownload": 1689258646604
 }
