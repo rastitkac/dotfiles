@@ -1,7 +1,7 @@
 // Place your settings in this file to overwrite the default settings
 {
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Nord Deep",
+  "workbench.colorTheme": "One Monokai",
   "editor.rulers": [79],
   "editor.roundedSelection": false,
   "editor.minimap.enabled": true,
@@ -23,7 +23,7 @@
   "gitlens.keymap": "alternate",
   "workbench.settings.editor": "json",
   "workbench.settings.useSplitJSON": true,
-  "terminal.integrated.shell.osx": "/opt/homebrew/bin/fish",
+  "terminal.integrated.defaultProfile.osx": "fish",
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "terminal.integrated.shellArgs.osx": [],
@@ -155,5 +155,35 @@
     "*.mjml.twig": "mjml",
     "*.html": "twig"
   },
-  "php-cs-fixer.lastDownload": 1689258646604
+  "php-cs-fixer.lastDownload": 1689258646604,
+  "terminal.integrated.shellIntegration.suggestEnabled": true,
+  "terminal.integrated.profiles.osx":{
+    "bash": {
+      "path": "bash",
+      "args": [
+        "-l"
+      ],
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh",
+      "args": [
+        "-l"
+      ]
+    },
+    "fish": {
+      "path": "/opt/homebrew/bin/fish",
+      "args": [
+        "-l"
+      ]
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  }
 }
