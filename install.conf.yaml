@@ -34,4 +34,9 @@
   [valet install, Installing Laravel Valet],
 ]
 
-- link: {}
+- link:
+    ~/.config/nvim:
+      create: true
+
+- shell:
+  - [git submodule update --init --recursive, Installing/updating submodules]
