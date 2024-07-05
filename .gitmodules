@@ -5,6 +5,3 @@
 [submodule "dotbot-brew"]
 	path = dotbot-brew
 	url = https://github.com/d12frosted/dotbot-brew.git
-[submodule "kickstart.nvim"]
-	path = kickstart.nvim
-	url = https://github.com/marcoluzi/kickstart.nvim
