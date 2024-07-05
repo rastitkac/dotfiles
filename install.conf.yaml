@@ -5,8 +5,33 @@
 
 - clean: ['~', '~/.config']
 
+- tap:
+  - shivammathur/php
+
+- brew:
+  - bat
+  - composer
+  - fnm
+  - ghq
+  - git
+  - mariadb
+  - nvim
+  - php
+  - tmux
+  - zsh
+
+- cask:
+  - alacritty
+  - alfred
+  - brave-browser
+  - font-fira-code-nerd-font
+  - obsidian
+  - spotify
+  - 1password
+
 - shell: [
-  [git submodule update --init --recursive, Installing/updating submodules]
+  [composer global require laravel/valet, Downloading Laravel Valet],
+  [valet install, Installing Laravel Valet],
 ]
 
 - link: {}
