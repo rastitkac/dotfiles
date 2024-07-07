@@ -19,12 +19,14 @@ typeset -xT SUDO_PATH sudo_path
 
 # PATH Variable
 path=(
+	/usr/local/bin(N-/)
 	$path
 )
 export PATH
 
 # FPATH Variable
 fpath=(
+	/usr/local/share/zsh/site-functions(N-/)
 	$fpath
 )
 export FPATH
