@@ -1,11 +1,10 @@
+import = [
+    "~/.config/alacritty/alacritty.shell.toml",
+]
+
 [debug]
 log_level = "Debug"
 print_events = false
-
-[shell]
-# TODO: How to make this variable for intel and m1 macbooks
-program = "/opt/homebrew/bin/zsh"
-args = ["-l"]
 
 [scrolling]
 history = 100000
