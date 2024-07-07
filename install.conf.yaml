@@ -35,8 +35,8 @@
 ]
 
 - link:
+    ~/.config/alacritty/alacritty.toml:
     ~/.config/nvim:
-      create: true
 
 - shell:
   - [git submodule update --init --recursive, Installing/updating submodules]

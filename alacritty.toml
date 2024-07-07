@@ -1,0 +1,22 @@
+[debug]
+log_level = "Debug"
+print_events = false
+
+[shell]
+# TODO: How to make this variable for intel and m1 macbooks
+program = "/opt/homebrew/bin/zsh"
+args = ["-l"]
+
+[scrolling]
+history = 100000
+multiplier = 3
+
+[font.normal]
+family = "FiraCode Nerd Font Mono"
+
+[window.padding]
+x = 16
+y = 16
+
+[window]
+startup_mode = "Fullscreen"
