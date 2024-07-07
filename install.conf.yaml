@@ -38,6 +38,8 @@
 
 - link:
     ~/.config/alacritty/alacritty.toml: config/alacritty/alacritty.toml
+    ~/.zshenv:
+    ~/.config/zsh/.zshrc: config/zsh/.zshrc
     ~/.config/nvim:
 
 - link:
