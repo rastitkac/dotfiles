@@ -43,12 +43,12 @@
 - link:
     ~/.config/alacritty/alacritty.shell.toml:
         if: '[[ $(uname -m) == "arm64" ]]'
-        path: config/alacritty/alacritty.shell.intel.toml
+        path: config/alacritty/alacritty.shell.apple.toml
 
 - link:
     ~/.config/alacritty/alacritty.shell.toml:
         if: '[[ $(uname -m) == "x86_64" ]]'
-        path: config/alacritty/alacritty.shell.apple.toml
+        path: config/alacritty/alacritty.shell.intel.toml
 
 - shell:
   - [git submodule update --init --recursive, Installing/updating submodules]
