@@ -1,7 +1,3 @@
-# Ignore global RC Files
-setopt NO_GLOBAL_RCS
-
-# Environment Variables
 export LC_ALL="${LC_ALL:-en_US.UTF-8}"
 export LANG="${LANG:-en_US.UTF-8}"
 export XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
@@ -13,19 +9,19 @@ export ZRCDIR=$ZHOMEDIR/rc
 export ZDATADIR=$XDG_DATA_HOME/zsh
 export ZCACHEDIR=$XDG_CACHE_HOME/zsh
 
+setopt NO_GLOBAL_RCS
+
 typeset -fuz zkbd
 typeset -U path PATH manpath sudo_path
 typeset -xT SUDO_PATH sudo_path
 
-# PATH Variable
 path=(
 	/usr/local/bin(N-/)
-	$(brew --prefix)/bin(N-/)
+	/opt/homebrew/bin(N-/)
 	$path
 )
 export PATH
 
-# FPATH Variable
 fpath=(
 	$(brew --prefix)/share/zsh-completions(N-/)
 	$fpath
