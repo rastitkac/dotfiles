@@ -41,6 +41,7 @@
 ]
 
 - link:
+    ~/.dotfiles: .
     ~/.config/alacritty/alacritty.toml: config/alacritty/alacritty.toml
     ~/.zshenv:
     ~/.config/zsh/.zshrc: config/zsh/zshrc
