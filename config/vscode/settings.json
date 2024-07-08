@@ -4,10 +4,8 @@
     "editor.emptySelectionClipboard": false,
     "editor.minimap.enabled": false,
     "editor.inlineSuggest.enabled": true,
-    "window.titleBarStyle": "custom",
-    "workbench.activityBar.visible": false,
     "diffEditor.ignoreTrimWhitespace": false,
-    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.defaultProfile.osx": "zsh",
     "files.associations": {
 		    "*.html": "twig"
     },
