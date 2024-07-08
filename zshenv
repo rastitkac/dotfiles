@@ -20,13 +20,14 @@ typeset -xT SUDO_PATH sudo_path
 # PATH Variable
 path=(
 	/usr/local/bin(N-/)
+	$(brew --prefix)/bin(N-/)
 	$path
 )
 export PATH
 
 # FPATH Variable
 fpath=(
-	/usr/local/share/zsh/site-functions(N-/)
+	$(brew --prefix)/share/zsh-completions(N-/)
 	$fpath
 )
 export FPATH
