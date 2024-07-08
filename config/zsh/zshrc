@@ -17,6 +17,7 @@ source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # oh-my-zsh git plugin
+source $HOME/.dotfiles/ohmyzsh/lib/git.zsh
 source $HOME/.dotfiles/ohmyzsh/plugins/git/git.plugin.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
