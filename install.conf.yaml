@@ -42,10 +42,11 @@
 
 - link:
     ~/.dotfiles: .
-    ~/.config/alacritty/alacritty.toml: config/alacritty/alacritty.toml
+    ~/.gitconfig:
     ~/.zshenv:
-    ~/.config/zsh/.zshrc: config/zsh/zshrc
+    ~/.config/alacritty/alacritty.toml: config/alacritty/alacritty.toml
     ~/.config/nvim:
+    ~/.config/zsh/.zshrc: config/zsh/zshrc
 
 - link:
     ~/.config/alacritty/alacritty.shell.toml:
