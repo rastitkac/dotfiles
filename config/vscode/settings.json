@@ -1,0 +1,17 @@
+{
+    "editor.fontSize": 12,
+    "editor.fontFamily": "'FiraCode Nerd Font Mono'",
+    "editor.emptySelectionClipboard": false,
+    "editor.minimap.enabled": false,
+    "editor.inlineSuggest.enabled": true,
+    "window.titleBarStyle": "custom",
+    "workbench.activityBar.visible": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "files.associations": {
+		    "*.html": "twig"
+    },
+    "emmet.includeLanguages": {
+        "twig": "html"
+    }
+}
