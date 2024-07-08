@@ -74,7 +74,6 @@
   - [defaults write NSGlobalDomain "NSTableViewDefaultSizeMode" -int "1" && killall Finder, Setting default table view size to small]
   - [defaults write com.apple.finder "ShowExternalHardDrivesOnDesktop" -bool "false" && killall Finder, Hiding external drives from desktop]
   - [defaults write com.apple.finder "ShowRemovableMediaOnDesktop" -bool "false" && killall Finder, Hiding removable media from desktop]
-  - [defaults write NSGlobalDomain com.apple.mouse.linear -bool "true", Enabling linear mouse scrolling]
   - [defaults write com.apple.dock "mru-spaces" -bool "false" && killall Dock, Disabling most recent spaces]
   - [defaults write com.apple.dock persistent-apps -array, Removing all apps from dock]
   - [git submodule update --init --recursive, Installing/updating submodules]
