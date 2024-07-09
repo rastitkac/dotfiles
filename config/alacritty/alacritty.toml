@@ -1,5 +1,6 @@
 import = [
     "~/.config/alacritty/alacritty.shell.toml",
+    "~/.local/share/nvim/lazy/tokyonight.nvim/extras/alacritty/tokyonight_night.toml"
 ]
 
 [debug]
