@@ -9,6 +9,13 @@ export ZRCDIR=$ZHOMEDIR/rc
 export ZDATADIR=$XDG_DATA_HOME/zsh
 export ZCACHEDIR=$XDG_CACHE_HOME/zsh
 
+HOSTNAME="$HOST"
+HISTFILE="${ZDATADIR}/zsh_history"
+HISTSIZE=10000
+SAVEHIST=100000
+HISTORY_IGNORE="(ls|cd|pwd|zsh|exit| cd ..)"
+LISTMAX=1000
+
 setopt NO_GLOBAL_RCS
 
 typeset -fuz zkbd
