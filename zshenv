@@ -16,6 +16,7 @@ SAVEHIST=100000
 HISTORY_IGNORE="(ls|cd|pwd|zsh|exit| cd ..)"
 LISTMAX=1000
 
+setopt SHARE_HISTORY
 setopt NO_GLOBAL_RCS
 
 typeset -fuz zkbd
