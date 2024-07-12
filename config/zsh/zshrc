@@ -49,6 +49,17 @@ source $HOME/.dotfiles/ohmyzsh/plugins/rsync/rsync.plugin.zsh
 # omz thefuck plugin
 source $HOME/.dotfiles/ohmyzsh/plugins/thefuck/thefuck.plugin.zsh
 
+# omz composer plugin
+source $HOME/.dotfiles/ohmyzsh/plugins/composer/composer.plugin.zsh
+
+# omz yarn plugin
+source $HOME/.dotfiles/ohmyzsh/plugins/yarn/yarn.plugin.zsh
+zstyle ':omz:plugins:yarn' global-path no
+zstyle ':omz:plugins:yarn' berry yes
+
+# omz wp-cli plugin
+source $HOME/.dotfiles/ohmyzsh/plugins/wp-cli/wp-cli.plugin.zsh
+
 # fnm setup
 eval "$(fnm env --use-on-cd)"
 
