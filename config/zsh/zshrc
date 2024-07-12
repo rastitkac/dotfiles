@@ -5,6 +5,13 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+export HOSTNAME="$HOST"
+export HISTFILE="${ZDATADIR}/zsh_history"
+export HISTSIZE=10000
+export SAVEHIST=100000
+export HISTORY_IGNORE="(ls|ls -al|cd|pwd|zsh|exit|cd ..|gsb|gaa)"
+export LISTMAX=1000
+
 autoload -Uz compinit && compinit -u
 
 # Powerlevel10k
