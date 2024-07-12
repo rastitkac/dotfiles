@@ -42,6 +42,9 @@
   [valet install, Installing Laravel Valet],
 ]
 
+- create:
+    ~/.local/share/zsh
+
 - link:
     ~/.dotfiles: .
     ~/.gitconfig:
