@@ -8,6 +8,7 @@ export ZHOMEDIR=$HOME/.config/zsh
 export ZRCDIR=$ZHOMEDIR/rc
 export ZDATADIR=$XDG_DATA_HOME/zsh
 export ZCACHEDIR=$XDG_CACHE_HOME/zsh
+export ZSH_CACHE_DIR=$ZCACHEDIR
 
 setopt NO_GLOBAL_RCS
 

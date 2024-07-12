@@ -23,9 +23,31 @@ source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 # zsh-autosuggestions
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-# oh-my-zsh git plugin
+# omz git plugin
 source $HOME/.dotfiles/ohmyzsh/lib/git.zsh
 source $HOME/.dotfiles/ohmyzsh/plugins/git/git.plugin.zsh
+
+# omz plugin
+source $HOME/.dotfiles/ohmyzsh/plugins/brew/brew.plugin.zsh
+
+# omz common aliases plugin
+source $HOME/.dotfiles/ohmyzsh/plugins/common-aliases/common-aliases.plugin.zsh
+
+# omz aliases plugin
+source $HOME/.dotfiles/ohmyzsh/plugins/aliases/aliases.plugin.zsh
+
+# omz alias-finder plugin
+source $HOME/.dotfiles/ohmyzsh/plugins/alias-finder/alias-finder.plugin.zsh
+zstyle ':omz:plugins:alias-finder' autoload yes
+zstyle ':omz:plugins:alias-finder' longer yes
+zstyle ':omz:plugins:alias-finder' exact yes
+zstyle ':omz:plugins:alias-finder' cheaper yes
+
+# omz rsync plugin
+source $HOME/.dotfiles/ohmyzsh/plugins/rsync/rsync.plugin.zsh
+
+# omz thefuck plugin
+source $HOME/.dotfiles/ohmyzsh/plugins/thefuck/thefuck.plugin.zsh
 
 # fnm setup
 eval "$(fnm env --use-on-cd)"

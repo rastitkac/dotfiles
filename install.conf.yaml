@@ -20,13 +20,14 @@
   - nvim
   - openssh
   - php
+  - thefuck
   - tmux
   - zsh
   - zsh-autosuggestions
   - zsh-completions
   - zsh-syntax-highlighting
 
-- cask:
+- cask
   - alacritty
   - alfred
   - brave-browser
@@ -44,6 +45,7 @@
 
 - create:
     ~/.local/share/zsh
+    ~/.cache/zsh/thefuck
 
 - link:
     ~/.dotfiles: .
