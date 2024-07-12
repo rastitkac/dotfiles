@@ -27,7 +27,7 @@
   - zsh-completions
   - zsh-syntax-highlighting
 
-- cask
+- cask:
   - alacritty
   - alfred
   - brave-browser
