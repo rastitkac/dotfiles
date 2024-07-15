@@ -14,3 +14,6 @@
 [submodule "ohmyzsh"]
 	path = ohmyzsh
 	url = https://github.com/ohmyzsh/ohmyzsh.git
+[submodule "dotbot-vscode"]
+	path = dotbot-vscode
+	url = https://github.com/rbrauner/dotbot-vscode
