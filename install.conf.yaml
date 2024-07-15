@@ -38,6 +38,22 @@
   - visual-studio-code
   - 1password
 
+- vscode:
+    exec: code
+    uninstall-not-listed: false
+    extensions:
+        - formulahendry.auto-rename-tag
+        - aaron-bond.better-comments
+        - stackbreak.comment-divider
+        - dbaeumer.vscode-eslint
+        - github.copilot
+        - eamodio.gitlens
+        - neilbrayfield.php-docblocker
+        - gruntfuggly.todo-tree
+        - enkia.tokyo-night
+        - mblode.twig-language-2
+
+
 - shell: [
   [composer global require laravel/valet, Downloading Laravel Valet],
   [valet install, Installing Laravel Valet],
