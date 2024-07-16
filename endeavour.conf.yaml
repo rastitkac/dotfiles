@@ -114,5 +114,6 @@
 - shell:
   - [nvidia-inst --32, Installing NVIDIA Drivers]
   - [sudo usermod -aG gamemode $USER, Adding User to gamemode Group]
+  # TODO: Test if i need to chenge cpu governor
   - [chsh -s /usr/bin/zsh, Changing Shell to Zsh]
 ]
