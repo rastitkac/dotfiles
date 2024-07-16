@@ -1,3 +1,8 @@
 - link:
     ~/.config/alacritty/alacritty.shell.toml:
         path: config/alacritty/alacritty.shell.intel.toml
+
+- shell:
+  - [sudo scutil --set ComputerName "Marco's MacBook Pro (2017)", Setting ComputerName]
+  - [sudo scutil --set HostName "marco-mbp17", Setting HostName]
+  - [sudo scutil --set LocalHostName "Marco-MBP17", Setting LocalHostName]

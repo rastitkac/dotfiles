@@ -12,3 +12,8 @@
   - microsoft-teams
   - notion
   - slack
+
+- shell:
+  - [sudo scutil --set ComputerName "Marco's MacBook Pro (2023)", Setting ComputerName]
+  - [sudo scutil --set HostName "marco-mbp23", Setting HostName]
+  - [sudo scutil --set LocalHostName "Marco-MBP23", Setting LocalHostName]
