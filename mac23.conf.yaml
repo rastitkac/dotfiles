@@ -1,3 +1,14 @@
 - link:
     ~/.config/alacritty/alacritty.shell.toml:
         path: config/alacritty/alacritty.shell.apple.toml
+
+- cask:
+  - adobe-creative-cloud
+  - asana
+  - figma
+  - microsoft-auto-update
+  - microsoft-word
+  - microsoft-excel
+  - microsoft-teams
+  - notion
+  - slack

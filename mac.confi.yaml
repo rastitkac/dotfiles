@@ -1,6 +1,6 @@
 - create:
-    ~/.local/share/zsh
-    ~/.cache/zsh/thefuck
+    - ~/.local/share/zsh
+    - ~/.cache/zsh/thefuck
 
 - link:
     ~/.dotfiles: .
@@ -10,6 +10,9 @@
     ~/.config/alacritty/alacritty.toml: config/alacritty/alacritty.toml
     ~/.config/nvim:
     ~/.config/zsh/.zshrc: config/zsh/zshrc
+
+- shell:
+  - [/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)", Installing Homebrew]
 
 - tap:
   - shivammathur/php
@@ -35,9 +38,13 @@
 
 - cask:
   - alacritty
+  - aldente
   - alfred
+  - bartender
   - brave-browser
+  - cleanmymac
   - dropbox
+  - firefox
   - font-fira-code-nerd-font
   - obsidian
   - spotify
@@ -81,3 +88,4 @@
   - [defaults write com.apple.finder "ShowRemovableMediaOnDesktop" -bool "false" && killall Finder, Hiding removable media from desktop]
   - [defaults write com.apple.dock "mru-spaces" -bool "false" && killall Dock, Disabling most recent spaces]
   - [defaults write com.apple.dock persistent-apps -array, Removing all apps from dock]
+  
