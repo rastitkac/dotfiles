@@ -10,6 +10,8 @@
     ~/.config/alacritty/alacritty.toml: config/alacritty/alacritty.toml
     ~/.config/nvim:
     ~/.config/zsh/.zshrc: config/zsh/zshrc
+    ~/.config/valet/Drivers/WordPressMultisiteSubdirectoryValetDriver.php: config/valet/drivers/WordPressMultisiteSubdirectoryValetDriver.php
+    ~/.config/valet/Drivers/WordPressProxyValetDriver.php: config/valet/drivers/WordPressProxyValetDriver.php
 
 - shell:
   - [/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)", Installing Homebrew]
