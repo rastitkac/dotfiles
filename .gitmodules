@@ -17,3 +17,6 @@
 [submodule "dotbot-vscode"]
 	path = dotbot-vscode
 	url = https://github.com/rbrauner/dotbot-vscode
+[submodule "dotbot-yay"]
+	path = dotbot-yay
+	url = https://github.com/oxson/dotbot-yay

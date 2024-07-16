@@ -1,0 +1,117 @@
+- create:
+    - ~/.local/share/zsh
+    - ~/.cache/zsh/thefuck
+
+- link:
+    ~/.dotfiles: .
+    ~/.gitconfig:
+    ~/.zshenv:
+    ~/.config/Code/User/settings.json: config/vscode/settings.json
+    ~/.config/alacritty/alacritty.toml: config/alacritty/alacritty.toml
+    ~/.config/nvim:
+    ~/.config/zsh/.zshrc: config/zsh/zshrc
+
+- link:
+    ~/.config/alacritty/alacritty.shell.toml:
+        path: config/alacritty/alacritty.shell.endeavour.toml
+
+- yay:
+  - bat
+  - composer
+  - gamemode
+  - lib32-gamemode
+  - ghq
+  - git
+  - neovim
+  - nodejs
+  - openssh
+  - php
+  - thefuck
+  - tmux
+  - zsh
+  - zsh-autosuggestions
+  - zsh-completions
+  - zsh-syntax-highlighting
+
+- yay:
+  - alacritty
+  - brave-bin
+  - code
+  - firefox
+  - lutris
+  - ttf-firacode-nerd
+  - obsidian
+  - prismlauncher
+  - spotify
+  - steam
+  - 1password
+
+# Lutris Wine Dependencies
+- yay:
+  - wine-staging
+  - giflib
+  - lib32-giflib
+  - libpng
+  - lib32-libpng
+  - libldap
+  - lib32-libldap
+  - gnutls
+  - mpg123
+  - lib32-mpg123
+  - openal
+  - lib32-openal
+  - v4l-utils
+  - lib32-v4l-utils
+  - libpulse
+  - lib32-libpulse
+  - libgpg-error
+  - lib32-libgpg-error
+  - alsa-plugins
+  - lib32-alsa-plugins
+  - alsa-lib
+  - lib32-alsa-lib
+  - libjpeg-turbo
+  - lib32-libjpeg-turbo
+  - sqlite
+  - lib32-sqlite
+  - libxcomposite
+  - lib32-libxcomposite
+  - libxinerama
+  - lib32-libgcrypt
+  - libgcrypt
+  - lib32-libxinerama
+  - ncurses
+  - lib32-ncurses
+  - ocl-icd
+  - lib32-ocl-icd
+  - libxslt
+  - lib32-libxslt
+  - libva
+  - lib32-libva
+  - gtk3
+  - lib32-gtk3
+  - gst-plugins-base-libs
+  - lib32-gst-plugins-base-libs
+  - vulkan-icd-loader
+  - lib32-vulkan-icd-loader
+
+- vscode:
+    exec: code
+    uninstall-not-listed: false
+    extensions:
+        - formulahendry.auto-rename-tag
+        - aaron-bond.better-comments
+        - stackbreak.comment-divider
+        - dbaeumer.vscode-eslint
+        - github.copilot
+        - eamodio.gitlens
+        - neilbrayfield.php-docblocker
+        - gruntfuggly.todo-tree
+        - enkia.tokyo-night
+        - mblode.twig-language-2
+
+- shell:
+  - [nvidia-inst --32, Installing NVIDIA Drivers]
+  - [sudo usermod -aG gamemode $USER, Adding User to gamemode Group]
+  - [chsh -s /usr/bin/zsh, Changing Shell to Zsh]
+]
