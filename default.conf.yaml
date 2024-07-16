@@ -2,6 +2,9 @@
     link:
       create: true
       relink: true
+      force: true
+    clean:
+      force: true
 
 - clean: ['~', '~/.config']
 
