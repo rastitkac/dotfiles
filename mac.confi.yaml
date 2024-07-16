@@ -1,9 +1,15 @@
-- defaults:
-    link:
-      create: true
-      relink: true
+- create:
+    ~/.local/share/zsh
+    ~/.cache/zsh/thefuck
 
-- clean: ['~', '~/.config']
+- link:
+    ~/.dotfiles: .
+    ~/.gitconfig:
+    ~/.zshenv:
+    ~/Library/Application Support/Code/User/settings.json: config/vscode/settings.json
+    ~/.config/alacritty/alacritty.toml: config/alacritty/alacritty.toml
+    ~/.config/nvim:
+    ~/.config/zsh/.zshrc: config/zsh/zshrc
 
 - tap:
   - shivammathur/php
@@ -53,36 +59,9 @@
         - enkia.tokyo-night
         - mblode.twig-language-2
 
-
-- shell: [
-  [composer global require laravel/valet, Downloading Laravel Valet],
-  [valet install, Installing Laravel Valet],
-]
-
-- create:
-    ~/.local/share/zsh
-    ~/.cache/zsh/thefuck
-
-- link:
-    ~/.dotfiles: .
-    ~/.gitconfig:
-    ~/.zshenv:
-    ~/Library/Application Support/Code/User/settings.json: config/vscode/settings.json
-    ~/.config/alacritty/alacritty.toml: config/alacritty/alacritty.toml
-    ~/.config/nvim:
-    ~/.config/zsh/.zshrc: config/zsh/zshrc
-
-- link:
-    ~/.config/alacritty/alacritty.shell.toml:
-        if: '[[ $(uname -m) == "arm64" ]]'
-        path: config/alacritty/alacritty.shell.apple.toml
-
-- link:
-    ~/.config/alacritty/alacritty.shell.toml:
-        if: '[[ $(uname -m) == "x86_64" ]]'
-        path: config/alacritty/alacritty.shell.intel.toml
-
 - shell:
+  - [composer global require laravel/valet, Downloading Laravel Valet]
+  - [valet install, Installing Laravel Valet]
   - [defaults write com.apple.dock "orientation" -string "left" && killall Dock, Moving dock to the left]
   - [defaults write com.apple.dock "tilesize" -int "36" && killall Dock, Setting dock icon size to 36]
   - [defaults write com.apple.dock "autohide" -bool "true" && killall Dock, Hiding dock]
@@ -102,4 +81,3 @@
   - [defaults write com.apple.finder "ShowRemovableMediaOnDesktop" -bool "false" && killall Finder, Hiding removable media from desktop]
   - [defaults write com.apple.dock "mru-spaces" -bool "false" && killall Dock, Disabling most recent spaces]
   - [defaults write com.apple.dock persistent-apps -array, Removing all apps from dock]
-  - [git submodule update --init --recursive, Installing/updating submodules]
