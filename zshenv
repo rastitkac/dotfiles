@@ -24,7 +24,8 @@ path=(
 export PATH
 
 fpath=(
-	$(brew --prefix)/share/zsh-completions(N-/)
+	/usr/local/share/zsh-completions(N-/)
+	/opt/homebrew/share/zsh-completions(N-/)
 	$fpath
 )
 export FPATH
