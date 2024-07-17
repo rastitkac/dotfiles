@@ -34,9 +34,6 @@
   - thefuck
   - tmux
   - zsh
-  - zsh-autosuggestions
-  - zsh-completions
-  - zsh-syntax-highlighting
 
 - cask:
   - alacritty
