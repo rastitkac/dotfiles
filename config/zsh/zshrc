@@ -23,6 +23,11 @@ source $HOME/.dotfiles/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # zsh-autosuggestions
 source $HOME/.dotfiles/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+# zsh-history-substring-search
+source $HOME/.dotfiles/zsh-history-substring-search/zsh-history-substring-search.zsh
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
+
 # omz git plugin
 source $HOME/.dotfiles/ohmyzsh/lib/git.zsh
 source $HOME/.dotfiles/ohmyzsh/plugins/git/git.plugin.zsh
