@@ -1,3 +1,9 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true
+
 - create:
     - ~/.local/share/zsh
     - ~/.cache/zsh/thefuck
@@ -14,7 +20,10 @@
     ~/.config/valet/Drivers/WordPressProxyValetDriver.php: config/valet/drivers/WordPressProxyValetDriver.php
 
 - shell:
-  - [/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)", Installing Homebrew]
+  -
+    command: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    stdin: true
+    descritpion: Installing Homebrew
 
 - tap:
   - shivammathur/php

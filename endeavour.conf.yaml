@@ -1,3 +1,9 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true
+
 - yay:
   - bat
   - gamemode
@@ -92,8 +98,6 @@
 - create:
     - ~/.local/share/zsh
     - ~/.cache/zsh/thefuck
-    - ~/.config/alacritty
-    - ~/.config/zsh
 
 - link:
     ~/.dotfiles: .
