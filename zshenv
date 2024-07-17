@@ -26,6 +26,7 @@ export PATH
 fpath=(
 	/usr/local/share/zsh-completions(N-/)
 	/opt/homebrew/share/zsh-completions(N-/)
+	$HOME/.dotfiles/zsh-completions/src(N-/)
 	$fpath
 )
 export FPATH
