@@ -17,6 +17,3 @@ family = "FiraCode Nerd Font Mono"
 [window.padding]
 x = 16
 y = 16
-
-[window]
-startup_mode = "Fullscreen"
