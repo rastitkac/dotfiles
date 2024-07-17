@@ -15,20 +15,22 @@ export LISTMAX=1000
 autoload -Uz compinit && compinit -u
 
 # Powerlevel10k
-source ~/.dotfiles/powerlevel10k/powerlevel10k.zsh-theme
+source $HOME/.dotfiles/powerlevel10k/powerlevel10k.zsh-theme
 
 # zsh-syntax-highlighting
-source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $HOME/.dotfiles/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # zsh-autosuggestions
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $HOME/.dotfiles/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # omz git plugin
 source $HOME/.dotfiles/ohmyzsh/lib/git.zsh
 source $HOME/.dotfiles/ohmyzsh/plugins/git/git.plugin.zsh
 
-# omz plugin
-source $HOME/.dotfiles/ohmyzsh/plugins/brew/brew.plugin.zsh
+# omz brew plugin
+if command -v brew >/dev/null 2>&1; then
+  source $HOME/.dotfiles/ohmyzsh/plugins/brew/brew.plugin.zsh
+fi
 
 # omz common aliases plugin
 source $HOME/.dotfiles/ohmyzsh/plugins/common-aliases/common-aliases.plugin.zsh
@@ -61,7 +63,9 @@ zstyle ':omz:plugins:yarn' berry yes
 source $HOME/.dotfiles/ohmyzsh/plugins/wp-cli/wp-cli.plugin.zsh
 
 # fnm setup
-eval "$(fnm env --use-on-cd)"
+if command -v fnm >/dev/null 2>&1; then
+  eval "$(fnm env --use-on-cd)"
+fi
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
