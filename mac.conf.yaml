@@ -35,6 +35,7 @@
   - nvim
   - openssh
   - php
+  - ripgrep
   - thefuck
   - tmux
   - zsh
