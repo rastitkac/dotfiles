@@ -110,6 +110,7 @@
   -
     command: nvidia-inst --32
     stdin: true
+    stdout: true
     descritpion: Installing NVIDIA Drivers
   -
     command: usermod -aG gamemode $USER
