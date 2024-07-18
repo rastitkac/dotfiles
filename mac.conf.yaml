@@ -26,6 +26,7 @@
 - brew:
   - bat
   - composer
+  - fd
   - fnm
   - gh
   - ghq
