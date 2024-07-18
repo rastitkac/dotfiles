@@ -8,12 +8,17 @@
   - bat
   - gamemode
   - lib32-gamemode
+  - fd
+  - gcc
   - ghq
   - git
+  - make
   - neovim
   - openssh
+  - ripgrep
   - thefuck
   - tmux
+  - unzip
   - zsh
   - zsh-autosuggestions
   - zsh-completions
