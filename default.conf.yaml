@@ -1,6 +1,10 @@
 - defaults:
     clean:
       force: true
+    link:
+      create: true
+      relink: true
+      force: true
 
 - clean: ['~', '~/.config']
 
@@ -11,6 +15,8 @@
   - git submodule update --init --recursive ohmyzsh
   - git -C powerlevel10k submodule sync --quiet --recursive
   - git submodule update --init --recursive powerlevel10k
+  - git -C tpm submodule sync --quiet --recursive
+  - git submodule update --init --recursive tpm
   - git -C zsh-autosuggestions submodule sync --quiet --recursive
   - git submodule update --init --recursive zsh-autosuggestions
   - git -C zsh-completions submodule sync --quiet --recursive
@@ -19,3 +25,13 @@
   - git submodule update --init --recursive zsh-history-substring-search
   - git -C zsh-syntax-highlighting submodule sync --quiet --recursive
   - git submodule update --init --recursive zsh-syntax-highlighting
+
+- link:
+    ~/.dotfiles: .
+    ~/.gitconfig:
+    ~/.zshenv:
+    ~/.config/alacritty/alacritty.toml: config/alacritty/alacritty.toml
+    ~/.config/nvim:
+    ~/.config/zsh/.zshrc: config/zsh/zshrc
+    ~/.tmux/plugins/tpm: tpm
+    ~/.config/tmux/tmux.conf: config/tmux/tmux.conf

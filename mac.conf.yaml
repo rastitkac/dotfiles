@@ -9,13 +9,7 @@
     - ~/.cache/zsh/thefuck
 
 - link:
-    ~/.dotfiles: .
-    ~/.gitconfig:
-    ~/.zshenv:
     ~/Library/Application Support/Code/User/settings.json: config/vscode/settings.json
-    ~/.config/alacritty/alacritty.toml: config/alacritty/alacritty.toml
-    ~/.config/nvim:
-    ~/.config/zsh/.zshrc: config/zsh/zshrc
     ~/.config/valet/Drivers/WordPressMultisiteSubdirectoryValetDriver.php: config/valet/drivers/WordPressMultisiteSubdirectoryValetDriver.php
     ~/.config/valet/Drivers/WordPressProxyValetDriver.php: config/valet/drivers/WordPressProxyValetDriver.php
 
