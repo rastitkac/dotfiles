@@ -103,25 +103,26 @@
 
 - link:
     ~/.config/Code - OSS/User/settings.json: config/vscode/settings.json
-
-- link:
     ~/.config/alacritty/alacritty.shell.toml:
         path: config/alacritty/alacritty.shell.endeavour.toml
 
 - shell:
-  # requires password
   -
     command: nvidia-inst --32
+    description: Installing NVIDIA Drivers
     stdin: true
     stdout: true
-    descritpion: Installing NVIDIA Drivers
-  # requires sudo
+    stderr: true
   -
-    command: usermod -aG gamemode $USER
+    command: sudo usermod -aG gamemode $USER
+    description: Adding user to gamemode group
     stdin: true
-    descritpion: Adding User to gamemode Group
-  # requires passoword
+    stdout: true
+    stderr: true
   -
     command: chsh -s /usr/bin/zsh
+    description: Changing shell to zsh
     stdin: true
-    descritpion: Changing Shell to Zsh
+    stdout: true
+    stderr: true
+
