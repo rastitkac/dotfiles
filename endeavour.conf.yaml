@@ -109,15 +109,18 @@
         path: config/alacritty/alacritty.shell.endeavour.toml
 
 - shell:
+  # requires password
   -
     command: nvidia-inst --32
     stdin: true
     stdout: true
     descritpion: Installing NVIDIA Drivers
+  # requires sudo
   -
     command: usermod -aG gamemode $USER
     stdin: true
     descritpion: Adding User to gamemode Group
+  # requires passoword
   -
     command: chsh -s /usr/bin/zsh
     stdin: true
