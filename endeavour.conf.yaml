@@ -20,9 +20,6 @@
   - tmux
   - unzip
   - zsh
-  - zsh-autosuggestions
-  - zsh-completions
-  - zsh-syntax-highlighting
 
 - yay:
   - alacritty
