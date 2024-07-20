@@ -35,3 +35,5 @@
     ~/.config/zsh/.zshrc: config/zsh/zshrc
     ~/.tmux/plugins/tpm: tpm
     ~/.config/tmux/tmux.conf: config/tmux/tmux.conf
+
+# .config/zsh/.p10k.zsh link
