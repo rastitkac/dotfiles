@@ -17,8 +17,9 @@ typeset -U path PATH manpath sudo_path
 typeset -xT SUDO_PATH sudo_path
 
 path=(
-	/usr/local/bin(N-/)
 	/opt/homebrew/bin(N-/)
+	/usr/local/bin(N-/)
+	~/bin(N-/)
 	$path
 )
 export PATH
