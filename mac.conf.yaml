@@ -13,12 +13,7 @@
     ~/.config/valet/Drivers/WordPressMultisiteSubdirectoryValetDriver.php: config/valet/drivers/WordPressMultisiteSubdirectoryValetDriver.php
     ~/.config/valet/Drivers/WordPressProxyValetDriver.php: config/valet/drivers/WordPressProxyValetDriver.php
 
-- shell:
-  -
-    command: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    stdin: true
-    stdout: true
-    descritpion: Installing Homebrew
+- install-brew: true
 
 - tap:
   - shivammathur/php
