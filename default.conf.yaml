@@ -9,22 +9,7 @@
 - clean: ['~', '~/.config']
 
 - shell:
-  - git -C nvim submodule sync --quiet --recursive
-  - git submodule update --init --recursive nvim
-  - git -C ohmyzsh submodule sync --quiet --recursive
-  - git submodule update --init --recursive ohmyzsh
-  - git -C powerlevel10k submodule sync --quiet --recursive
-  - git submodule update --init --recursive powerlevel10k
-  - git -C tpm submodule sync --quiet --recursive
-  - git submodule update --init --recursive tpm
-  - git -C zsh-autosuggestions submodule sync --quiet --recursive
-  - git submodule update --init --recursive zsh-autosuggestions
-  - git -C zsh-completions submodule sync --quiet --recursive
-  - git submodule update --init --recursive zsh-completions
-  - git -C zsh-history-substring-search submodule sync --quiet --recursive
-  - git submodule update --init --recursive zsh-history-substring-search
-  - git -C zsh-syntax-highlighting submodule sync --quiet --recursive
-  - git submodule update --init --recursive zsh-syntax-highlighting
+  - [git submodule update --init --recursive, Initializing and updating submodules]
 
 - link:
     ~/.dotfiles: .
