@@ -9,7 +9,7 @@ export HOSTNAME="$HOST"
 export HISTFILE="${ZDATADIR}/zsh_history"
 export HISTSIZE=10000
 export SAVEHIST=100000
-export HISTORY_IGNORE="(ls|ls -al|cd|pwd|zsh|exit|cd ..|gsb|gaa)"
+export HISTORY_IGNORE="(ls|ls -al|cd|pwd|zsh|exit|cd ..|gsb|gaa|ggp|ggl|gfo|gf|clear|als|yd)"
 export LISTMAX=1000
 
 autoload -Uz compinit && compinit -u
