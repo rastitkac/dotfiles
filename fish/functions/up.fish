@@ -1,4 +1,3 @@
-# Defined in /Users/rastitkac/.config/fish/functions/up.fish @ line 51
 function up
   # up one
   if not count $argv > /dev/null

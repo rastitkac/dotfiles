@@ -5,7 +5,6 @@
   "editor.rulers": [79],
   "editor.roundedSelection": false,
   "editor.minimap.enabled": true,
-  "editor.minimap.renderCharacters": false,
   "editor.minimap.maxColumn": 100,
   "editor.renderWhitespace": "boundary",
   "editor.suggestSelection": "first",
@@ -136,7 +135,6 @@
     "yaml": true
   },
   "git.ignoreRebaseWarning": true,
-  "window.zoomLevel": -1,
   "security.workspace.trust.untrustedFiles": "open",
   "editor.linkedEditing": true,
   "terminal.integrated.scrollback": 50000,
@@ -155,27 +153,21 @@
     "*.mjml.twig": "mjml",
     "*.html": "twig"
   },
-  "php-cs-fixer.lastDownload": 1689258646604,
+  "php-cs-fixer.lastDownload": 1695977500952,
   "terminal.integrated.shellIntegration.suggestEnabled": true,
-  "terminal.integrated.profiles.osx":{
+  "terminal.integrated.profiles.osx": {
     "bash": {
       "path": "bash",
-      "args": [
-        "-l"
-      ],
+      "args": ["-l"],
       "icon": "terminal-bash"
     },
     "zsh": {
       "path": "zsh",
-      "args": [
-        "-l"
-      ]
+      "args": ["-l"]
     },
     "fish": {
       "path": "/opt/homebrew/bin/fish",
-      "args": [
-        "-l"
-      ]
+      "args": ["-l"]
     },
     "tmux": {
       "path": "tmux",
@@ -185,5 +177,6 @@
       "path": "pwsh",
       "icon": "terminal-powershell"
     }
-  }
+  },
+  "window.zoomLevel": -1
 }

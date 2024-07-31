@@ -1,6 +1,7 @@
 [user]
 	name = Rasti Tkac
 	email = rasti@webkinder.ch
+	signingkey = 672A72CF2DCD8C49
 [core]
 	excludesfile = /Users/rastitkac/.gitignore_global
 	editor = /usr/bin/vim
@@ -13,3 +14,5 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[commit]
+	gpgsign = true

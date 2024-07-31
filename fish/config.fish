@@ -24,16 +24,22 @@ set -x -g PATH (brew --prefix findutils)/libexec/gnubin $PATH
 set -x -g PATH ~/go/bin $PATH
 
 # User bin folder
-set -x -g PATH ~/bin ~/.local/bin $PATH /usr/local/sbin
+set -x -g PATH ~/bin ~/.local/bin /usr/local/sbin ~/.config/phpmon/bin $PATH
 
 # Composer
 set -x -g PATH ~/.composer/vendor/bin $PATH
 
 # fnm
 set -x -g PATH /home/rastitkac/.fnm $PATH
-fnm env | source
+fnm env --use-on-cd | source
 
 # bobthefish
 set -g theme_color_scheme nord
 
 thefuck --alias | source
+
+zoxide init fish | source
+
+fzf --fish | source
+
+set -gx PYTHON "/usr/local/bin/python"

@@ -14,7 +14,7 @@ brew bundle
 success "Finished installing Brewfile packages."
 
 fnm use 14
-success "Switched to Node v12"
+success "Switched to Node v14"
 
 find * -name "*.list" | while read fn; do
     cmd="${fn%.*}"
