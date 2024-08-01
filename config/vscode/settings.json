@@ -15,5 +15,7 @@
         "twig": "html"
     },
     "git.enableCommitSigning": true,
-    "git.signingKey": "3DEE96D4E58720CA"
+    "git.signingKey": "3DEE96D4E58720CA",
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true
 }
