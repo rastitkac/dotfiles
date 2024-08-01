@@ -19,37 +19,66 @@
   - shivammathur/php
 
 - brew:
+  - asciinema
   - bat
   - composer
+  - coreutils
+  - curl
+  - findutils
   - fd
   - fnm
   - gh
   - ghq
   - git
   - mariadb
+  - nginx
   - node
   - nvim
   - openssh
   - php
+  - ssh-copy-id
   - ripgrep
   - thefuck
   - tmux
+  - wifi-password
+  - wp-cli
+  - yarn
+  - youtube-dl
   - zsh
 
 - cask:
-  - alacritty
-  - aldente
-  - alfred
+  - 1password
+  - 1password-cli
+  - adobe-creative-cloud
+  - asana
   - bartender
   - brave-browser
-  - cleanmymac
   - dropbox
   - firefox
+  - firefox-developer-edition
   - font-fira-code-nerd-font
+  - google-chrome
+  - gpg-keychain
+  - hammerspoon
+  - iterm2
+  - karabiner-elements
+  - keka
+  - microsoft-office
+  - microsoft-teams
+  - notion
   - obsidian
+  - opera
+  - phpmon
+  - raycast
+  - rectangle
+  - resolutionator
+  - setapp
+  - slack
+  - spark
   - spotify
+  - teamviewer
   - visual-studio-code
-  - 1password
+  - vlc
 
 - vscode:
     exec: code
@@ -65,6 +94,15 @@
         - gruntfuggly.todo-tree
         - enkia.tokyo-night
         - mblode.twig-language-2
+        - bmewburn.vscode-intelephense-client
+        - eamodio.gitlens
+        - formulahendry.github-actions
+        - GitHub.vscode-pull-request-github
+        - Gruntfuggly.todo-tree
+        - patbenatar.advanced-new-file
+        - PKief.material-icon-theme
+        - sleistner.vscode-fileutils
+        - vincaslt.highlight-matching-tag
 
 - shell:
   - [composer global require laravel/valet, Downloading Laravel Valet]
@@ -84,8 +122,8 @@
   - [defaults write com.apple.finder "FXEnableExtensionChangeWarning" -bool "false", Disabling extension change warning]
   - [defaults write NSGlobalDomain "NSDocumentSaveNewDocumentsToCloud" -bool "false", Saving new documents to local by default]
   - [defaults write NSGlobalDomain "NSTableViewDefaultSizeMode" -int "1", Setting default table view size to small]
-  - [defaults write com.apple.finder "ShowExternalHardDrivesOnDesktop" -bool "false", Hiding external drives from desktop]
-  - [defaults write com.apple.finder "ShowRemovableMediaOnDesktop" -bool "false", Hiding removable media from desktop]
+  - [defaults write com.apple.finder "ShowExternalHardDrivesOnDesktop" -bool "true", Showing external drives on desktop]
+  - [defaults write com.apple.finder "ShowRemovableMediaOnDesktop" -bool "false", Showing removable media on desktop]
   - [defaults write com.apple.dock "mru-spaces" -bool "false", Disabling most recent spaces]
   - [defaults write com.apple.dock persistent-apps -array, Removing all apps from dock]
   - [killall Dock, Reloading dock]

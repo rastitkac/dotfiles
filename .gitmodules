@@ -1,37 +1,37 @@
 [submodule "dotbot"]
 	path = dotbot
-	url = https://github.com/anishathalye/dotbot
+	url = git@github.com:anishathalye/dotbot.git
 	ignore = dirty
 [submodule "nvim"]
 	path = nvim
-	url = https://github.com/marcoluzi/kickstart.nvim
+	url = git@github.com:marcoluzi/kickstart.nvim.git
 [submodule "powerlevel10k"]
 	path = powerlevel10k
-	url = https://github.com/romkatv/powerlevel10k.git
+	url = git@github.com:romkatv/powerlevel10k.git
 [submodule "ohmyzsh"]
 	path = ohmyzsh
-	url = https://github.com/ohmyzsh/ohmyzsh.git
+	url = git@github.com:ohmyzsh/ohmyzsh.git
 [submodule "dotbot-vscode"]
 	path = dotbot-vscode
-	url = https://github.com/rbrauner/dotbot-vscode
+	url = git@github.com:rbrauner/dotbot-vscode.git
 [submodule "dotbot-yay"]
 	path = dotbot-yay
-	url = https://github.com/oxson/dotbot-yay
+	url = git@github.com:oxson/dotbot-yay.git
 [submodule "zsh-syntax-highlighting"]
 	path = zsh-syntax-highlighting
-	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+	url = git@github.com:zsh-users/zsh-syntax-highlighting.git
 [submodule "zsh-autosuggestions"]
 	path = zsh-autosuggestions
-	url = https://github.com/zsh-users/zsh-autosuggestions.git
+	url = git@github.com:zsh-users/zsh-autosuggestions.git
 [submodule "zsh-completions"]
 	path = zsh-completions
-	url = https://github.com/zsh-users/zsh-completions.git
+	url = git@github.com:zsh-users/zsh-completions.git
 [submodule "zsh-history-substring-search"]
 	path = zsh-history-substring-search
-	url = https://github.com/zsh-users/zsh-history-substring-search.git
+	url = git@github.com:zsh-users/zsh-history-substring-search.git
 [submodule "tpm"]
 	path = tpm
-	url = https://github.com/tmux-plugins/tpm.git
+	url = git@github.com:tmux-plugins/tpm.git
 [submodule "dotbot-brew"]
 	path = dotbot-brew
-	url = https://github.com/wren/dotbot-brew.git
+	url = git@github.com:wren/dotbot-brew.git

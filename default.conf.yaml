@@ -15,7 +15,6 @@
     ~/.dotfiles: .
     ~/.gitconfig:
     ~/.zshenv:
-    ~/.config/alacritty/alacritty.toml: config/alacritty/alacritty.toml
     ~/.config/nvim:
     ~/.config/zsh/.zshrc: config/zsh/zshrc
     ~/.tmux/plugins/tpm: tpm

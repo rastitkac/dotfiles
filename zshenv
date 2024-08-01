@@ -19,6 +19,7 @@ typeset -xT SUDO_PATH sudo_path
 path=(
 	/opt/homebrew/bin(N-/)
 	/usr/local/bin(N-/)
+	/usr/sbin(N-/)
 	~/bin(N-/)
 	$path
 )
@@ -43,3 +44,5 @@ if builtin command -v nvim > /dev/null 2>&1; then
 else
 	export EDITOR=${EDITOR:-vim}
 fi
+
+export GPG_TTY=$(tty)

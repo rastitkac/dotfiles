@@ -11,6 +11,9 @@ BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 cd "${BASEDIR}"
 
+echo "Current directory: ${BASEDIR}"
+echo "PATH: $PATH"
+
 git -C "${DOTBOT_DIR}" submodule sync --quiet --recursive
 git submodule update --init --recursive "${DOTBOT_DIR}"
 
@@ -18,21 +21,28 @@ git -C dotbot-vscode submodule sync --quiet --recursive
 git submodule update --init --recursive dotbot-vscode
 
 if [[ "${@}" == *"mac"* ]]; then
-	git -C dotbot-brew submodule sync --quiet --recursive
-	git submodule update --init --recursive dotbot-brew
+    git -C dotbot-brew submodule sync --quiet --recursive
+    git submodule update --init --recursive dotbot-brew
 fi
 
 if [[ "${@}" == *"endeavour"* ]]; then
-	git -C dotbot-yay submodule sync --quiet --recursive
-	git submodule update --init --recursive dotbot-yay
+    git -C dotbot-yay submodule sync --quiet --recursive
+    git submodule update --init --recursive dotbot-yay
+fi
+
+# Check if code (Visual Studio Code) is installed
+if ! command -v code &> /dev/null; then
+    echo "Visual Studio Code (code) is not installed."
 fi
 
 for conf in ${DEFAULT_CONFIG_PREFIX} ${@}; do
-	if [[ "${@}" == *"mac"* ]]; then
-		"${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" --plugin-dir dotbot-vscode --plugin-dir dotbot-brew -c "${conf}${CONFIG_SUFFIX}" -v
-	elif [[ "${@}" == *"endeavour"* ]]; then
-		"${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" --plugin-dir dotbot-vscode -p dotbot-yay/yay.py -c "${conf}${CONFIG_SUFFIX}" -v
-	else
-		"${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" --plugin-dir dotbot-vscode -c "${conf}${CONFIG_SUFFIX}" -v
-	fi
+    if [[ "${@}" == *"mac"* ]]; then
+        echo "Running dotbot with dotbot-brew plugin"
+        "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" --plugin-dir dotbot-vscode --plugin-dir dotbot-brew -c "${conf}${CONFIG_SUFFIX}" -v
+    elif [[ "${@}" == *"endeavour"* ]]; then
+        "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" --plugin-dir dotbot-vscode -p dotbot-yay/yay.py -c "${conf}${CONFIG_SUFFIX}" -v
+    else
+        "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" --plugin-dir dotbot-vscode -c "${conf}${CONFIG_SUFFIX}" -v
+    fi
 done
+

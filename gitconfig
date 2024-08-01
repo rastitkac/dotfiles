@@ -1,19 +1,23 @@
-[core]
-    editor = nvim
+[user]
+	name = Rasti Tkac
+	email = rasti@webkinder.ch
+	signingkey = 3DEE96D4E58720CA
 
-[fetch]
-    prune = true
+[core]
+	excludesfile = /Users/rastitkac/.gitignore_global
+	editor = nvim
 
 [init]
-    defaultBranch = main
+	defaultBranch = main
 
 [pull]
-    rebase = true
+	rebase = true
 
-[gpg]
-    format = ssh
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
 
-[user]
-    name = Marco Luzi
-    email = dev@luzimarco.ch
-    signingKey = ~/.ssh/id_ed25519.pub
+[commit]
+	gpgsign = true
