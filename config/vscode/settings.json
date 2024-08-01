@@ -17,5 +17,6 @@
     "git.enableCommitSigning": true,
     "git.signingKey": "3DEE96D4E58720CA",
     "git.confirmSync": false,
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "git.autofetch": true
 }
