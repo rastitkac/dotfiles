@@ -1,7 +1,6 @@
 {
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Tokyo Night",
-    "editor.fontSize": 10,
     "editor.fontFamily": "'FiraCode Nerd Font Mono'",
     "editor.emptySelectionClipboard": false,
     "editor.minimap.enabled": false,
@@ -19,5 +18,13 @@
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
     "git.autofetch": true,
-    "window.newWindowDimensions": "fullscreen"
+    "window.newWindowDimensions": "fullscreen",
+    "markdown.preview.fontSize": 14,
+    "notebook.markup.fontSize": 14,
+    "notebook.output.fontSize": 14,
+    "scm.inputFontSize": 14,
+    "editor.suggestFontSize": 14,
+    "gitlens.currentLine.fontSize": 14,
+    "gitlens.blame.fontSize": 14,
+    "window.zoomLevel": -1
 }
