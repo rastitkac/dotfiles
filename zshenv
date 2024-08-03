@@ -21,6 +21,7 @@ path=(
 	/usr/local/bin(N-/)
 	/usr/sbin(N-/)
 	~/bin(N-/)
+	~/.config/phpmon/bin(N-/)
 	$path
 )
 export PATH
