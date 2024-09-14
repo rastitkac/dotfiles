@@ -25,12 +25,10 @@ set -x -g PATH ~/.composer/vendor/bin $PATH
 
 # fnm
 set -x -g PATH /home/rastitkac/.fnm $PATH
-fnm env --use-on-cd | source
+fnm env --use-on-cd --shell=fish | source
 
 # bobthefish
 set -g theme_color_scheme nord
-
-thefuck --alias | source
 
 zoxide init fish | source
 
