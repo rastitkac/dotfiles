@@ -1,7 +1,7 @@
 [user]
 	name = Rasti Tkac
 	email = rasti@webkinder.ch
-	signingkey = 672A72CF2DCD8C49
+	signingkey = ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCrhhmvgVok1a3IH3lqzmHyNi9ZQ0RakM9NtBYzPvBmboQdzvjlHOuc8Gj8E3oHl+4qLdOsZPacQ7be9yfkiEA4ZgQHWhUCVigEZNQsMkng69xURInroPkzlMjzuV+BaNQsLCewr3Ls1osiqmKW1LsiH2ZVYhF9uhbDNTUEZkXo8aTrKwizOIWPL1Ud2xhymdye9h4NjdQf7zKf1198gMXjMClgsTMaogkFn2wRomMVfHvV4MBE/9RUNa+iSYwGG4N0cBaEW4vrch85FhMBvd966nrndDCeWT0ehYTMHJfTDc/BMW6YlUCG6YFTnvzLKmwUJ821AhMiItozTE0ok8JDosWWzSyJ4VE5O9ebnLdnK189sWmx6F/j8CWe1hFXQTRGMR5YfBV3ufIVIFV2wsGAWwU08D0jo923or+HMYi0R5FfzOn9jNYYzoOPM9dt7zzL9EAiUbt9fbhe1bOAx+Eo0ddgKW6wJUG+ee0Iu0fxOqWVoy71jUpNOmu/sgE732dvu0waI8CtefAKOQS7YFlaDBDw6TbwLEQf6/AZfqvFvgg1AsEmXK0v3iGKPXG1RYclPDwlHjV8sqtV5tuFDP+gAdFi06iVd36io8x19OQk7s1r+SZCKA9Bi5WW7wihI/Lv8WZu84uvNycCJKvmVYNxqHMfYdk5YAxA6eI9y/c3nQ==
 [core]
 	excludesfile = /Users/rastitkac/.gitignore_global
 	editor = /usr/bin/vim
@@ -14,5 +14,9 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[gpg]
+  format = ssh
+[gpg "ssh"]
+  program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
 [commit]
-	gpgsign = true
+  gpgsign = true
