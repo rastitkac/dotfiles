@@ -47,7 +47,7 @@
     "editor.formatOnSave": true
   },
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "javascript.validate.enable": false,
   "[json]": {
@@ -178,5 +178,10 @@
       "icon": "terminal-powershell"
     }
   },
-  "window.zoomLevel": -1
+  "window.zoomLevel": -1,
+  "terminal.integrated.sendKeybindingsToShell": true,
+  "codeium.enableConfig": {
+    "*": true,
+    "plaintext": true
+  }
 }
