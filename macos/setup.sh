@@ -18,9 +18,9 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Set computer name
-sudo scutil --set ComputerName WKRastiM1Pro
-sudo scutil --set LocalHostName WKRastiM1Pro
-sudo scutil --set HostName WKRastiM1Pro
+sudo scutil --set ComputerName RastiM2Max
+sudo scutil --set LocalHostName RastiM2Maxo
+sudo scutil --set HostName RastiM2Max
 
 ###############################################################################
 # General UI/UX                                                               #
@@ -28,12 +28,6 @@ sudo scutil --set HostName WKRastiM1Pro
 
 # Disable the sound effects on boot
 sudo nvram SystemAudioVolume=" "
-
-# Disable transparency in the menu bar and elsewhere on Yosemite
-# defaults write com.apple.universalaccess reduceTransparency -bool true
-
-# Set highlight color to green
-# defaults write NSGlobalDomain AppleHighlightColor -string "0.764700 0.976500 0.568600"
 
 # Set sidebar icon size to small
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
@@ -86,29 +80,12 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
 ###############################################################################
 
-# Trackpad: enable tap to click for this user and for the login screen
-# defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
-# defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
-# defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
-
-# Trackpad: map bottom right corner to right-click
-# defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCornerSecondaryClick -int 2
-# defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
-# defaults -currentHost write NSGlobalDomain com.apple.trackpad.trackpadCornerClickBehavior -int 1
-# defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryClick -bool true
-
-# Enable “natural” (Lion-style) scrolling
-# defaults write NSGlobalDomain com.apple.swipescrolldirection -bool true
-
 # Increase sound quality for Bluetooth headphones/headsets
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
 
 # Enable full keyboard access for all controls
 # (e.g. enable Tab in modal dialogs)
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
-
-# Follow the keyboard focus while zoomed in
-# defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
 
 # Enable press-and-hold for keys instead of key repeat
 # defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool true
@@ -310,31 +287,6 @@ defaults write com.apple.dock showhidden -bool true
 
 # Reset Launchpad, but keep the desktop wallpaper intact
 # find "${HOME}/Library/Application Support/Dock" -name "*-*.db" -maxdepth 1 -delete
-
-# Hot corners
-# Possible values:
-#  0: no-op
-#  2: Mission Control
-#  3: Show application windows
-#  4: Desktop
-#  5: Start screen saver
-#  6: Disable screen saver
-#  7: Dashboard
-# 10: Put display to sleep
-# 11: Launchpad
-# 12: Notification Center
-# Top left screen corner → No op
-defaults write com.apple.dock wvous-tl-corner   -int 2
-defaults write com.apple.dock wvous-tl-modifier -int 2
-# Top right screen corner → No op
-defaults write com.apple.dock wvous-tr-corner   -int 3
-defaults write com.apple.dock wvous-tr-modifier -int 3
-# Bottom left screen corner → Put display to sleep
-defaults write com.apple.dock wvous-bl-corner   -int 3
-defaults write com.apple.dock wvous-bl-modifier -int 3
-# Bottom right screen corner → Desktop
-defaults write com.apple.dock wvous-br-corner   -int 2
-defaults write com.apple.dock wvous-br-modifier -int 2
 
 ###############################################################################
 # Terminal & iTerm 2                                                          #
