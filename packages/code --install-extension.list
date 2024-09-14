@@ -8,6 +8,7 @@ bierner.markdown-checkbox
 bmewburn.vscode-intelephense-client
 christian-kohler.path-intellisense
 claudiosanches.woocommerce
+Codeium.codeium
 CoenraadS.bracket-pair-colorizer
 dbaeumer.vscode-eslint
 donjayamanne.jquerysnippets
@@ -19,7 +20,6 @@ esbenp.prettier-vscode
 formulahendry.auto-rename-tag
 formulahendry.github-actions
 geisslerh.ayu-mirage-bold-italic
-GitHub.copilot
 GitHub.github-vscode-theme
 github.vscode-github-actions
 GitHub.vscode-pull-request-github
