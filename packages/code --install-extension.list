@@ -1,6 +1,5 @@
 alefragnani.Bookmarks
 arcticicestudio.nord-visual-studio-code
-auchenberg.vscode-browser-preview
 azemoh.one-monokai
 bajdzis.vscode-twig-pack
 bierner.emojisense
@@ -24,9 +23,7 @@ GitHub.github-vscode-theme
 github.vscode-github-actions
 GitHub.vscode-pull-request-github
 Gruntfuggly.todo-tree
-HookyQR.beautify
 imoca.php-doc-comment-vscode-plugin
-imperez.smarty
 jakebathman.mysql-syntax
 jock.svg
 junstyle.php-cs-fixer
@@ -34,6 +31,7 @@ killalau.vscode-liquid-snippets
 marlosirapuan.nord-deep
 mblode.twig-language-2
 mikestead.dotenv
+ms-vscode.live-server
 ms-vscode.remote-explorer
 ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
